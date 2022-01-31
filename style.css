@@ -12,7 +12,7 @@ html{
 	font-family: "jost" , sans-serif;
 }
 .main-div{
-	width: 100vw;
+	width: 90vw;
 	height: 90vh;
 	background-color: #f6f6f6;
 	display: grid;
