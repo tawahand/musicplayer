@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MUSIC PLAYER</title>
+
+	<!-- Font Awesome Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="main-div">
+		<div class="music-container">
+			<h2 id="title">Kalam e Raza</h2>
+			<h3 id="artist">Tahir Qadri</h3>
+			<div class="img-container">
+				<img src="images\naat1.jpg">
+			</div>
+			<audio src="Natt\naat1.mp3"></audio>
+
+			<!-- PROGRESS BAR START-->
+			<div class="progressbar-container" id="progress-container">
+				<div class="progressbar-duration-meter">
+					<div id="current-time">0:00</div>
+					<div id="duration-tt">2:44</div>
+				</div>
+				<div class="progress-div" id="progress_div">
+					<div class="progress" id="progress"></div>
+				</div>
+			</div>
+
+			<!-- PROGRESS BAR END-->
+
+
+			<!-- Music Controle -->
+			<div class="music-controle">
+				<i class="fas fa-backward" id="prev" title="Previous"></i>
+				<i class="fas fa-play main-button" id="play" title="Play"></i>
+				<i class="fas fa-forward" id="next" title="Next"></i>
+			</div>
+		</div>
+	</div>
+	<script src="js\music.js"></script>
+</body>
+</html>
